@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 List<Item> items = response.body();
 
                 for(Item item : items) {
-
+                    String content = "";
+                    content += "ID: " + item.getDepartament() + "\n";
                 }
 
             }
